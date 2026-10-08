@@ -392,8 +392,8 @@ h2 i { display: block; font-style: italic; font-weight: 300; }
   .sec { padding: 68px 0; }
   .sec--tight { padding-top: 48px; }
   .hero { min-height: 0; flex-direction: column; }
-  .hero__media { position: relative; inset: auto; order: 2; width: 100%; height: 320px; margin-top: -20px; }
-  .hero__media img { object-position: 55% 88%; }
+  .hero__media { position: relative; inset: auto; order: 2; width: 100%; height: 320px; margin-top: -20px; order: -1; }
+  .hero__media img { object-position: 55% -44%; }
   .hero__mask { background:
     linear-gradient(#ECECEA, rgba(236,236,234,.6) 14%, rgba(236,236,234,0) 30%),
     linear-gradient(to top, #ECECEA, rgba(236,236,234,.85) 10%, rgba(236,236,234,0) 34%); }
